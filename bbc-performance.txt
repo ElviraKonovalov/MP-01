@@ -1,0 +1,261 @@
+
+
+************************
+
+(a)
+Multi-nomialNB default values, try 1 
+
+(b)
+[[ 96   1   0   0   4]
+ [  0  75   1   0   1]
+ [  1   0  75   0   0]
+ [  0   0   0 111   0]
+ [  0   2   1   0  77]]
+
+(c)
+               precision    recall  f1-score   support
+
+     business       0.99      0.95      0.97       101
+entertainment       0.96      0.97      0.97        77
+     politics       0.97      0.99      0.98        76
+        sport       1.00      1.00      1.00       111
+         tech       0.94      0.96      0.95        80
+
+     accuracy                           0.98       445
+    macro avg       0.97      0.97      0.97       445
+ weighted avg       0.98      0.98      0.98       445
+
+
+(d)
+Accuracy score: 0.98
+Macro-average F1 score: 0.97
+Weighted-average F1 score: 0.98
+
+(e)
+business: 0.23
+entertainment: 0.17
+politics: 0.19
+sport: 0.23
+tech: 0.18
+
+(f)
+The size of the vocabulary is 29421
+
+(g)
+The number of word-tokens in class business (0) is 133635.0
+The number of word-tokens in class entertainment (1) is 97816.0
+The number of word-tokens in class politics (2) is 151989.0
+The number of word-tokens in class sport (3) is 128847.0
+The number of word-tokens in class tech (4) is 162044.0
+
+(h)
+The number of word-tokens in the entire corpus is 674331.0
+
+(i)
+The number and percentage of words with a frequency of zero in class business (0) is 18598 13%
+The number and percentage of words with a frequency of zero in class entertainment (1) is 19205 19%
+The number and percentage of words with a frequency of zero in class politics (2) is 19179 12%
+The number and percentage of words with a frequency of zero in class sport (3) is 19754 15%
+The number and percentage of words with a frequency of zero in class tech (4) is 18174 11%
+
+(j)
+The number and percentage of words with a frequency of one in the entire corpus is 21097 3%
+
+(k)
+The log-prob of the word 'coffee' in each class of the 5 classes is: [ -9.92240744 -10.65519448 -11.41536776 -11.97204508 -10.77616594]
+The log-prob of the word 'pizza' in each class of the 5 classes is: [-12.00184898 -11.75380677 -12.10851494 -10.87343279 -12.1624603 ]
+
+************************
+
+(a)
+Multi-nomialNB default values, try 2 
+
+(b)
+[[ 92   0   3   0   3]
+ [  0  79   3   0   2]
+ [  2   1  78   0   0]
+ [  0   0   1 102   0]
+ [  0   0   1   0  78]]
+
+(c)
+               precision    recall  f1-score   support
+
+     business       0.98      0.94      0.96        98
+entertainment       0.99      0.94      0.96        84
+     politics       0.91      0.96      0.93        81
+        sport       1.00      0.99      1.00       103
+         tech       0.94      0.99      0.96        79
+
+     accuracy                           0.96       445
+    macro avg       0.96      0.96      0.96       445
+ weighted avg       0.97      0.96      0.96       445
+
+
+(d)
+Accuracy score: 0.96
+Macro-average F1 score: 0.96
+Weighted-average F1 score: 0.96
+
+(e)
+business: 0.23
+entertainment: 0.17
+politics: 0.19
+sport: 0.23
+tech: 0.18
+
+(f)
+The size of the vocabulary is 29421
+
+(g)
+The number of word-tokens in class business (0) is 134846.0
+The number of word-tokens in class entertainment (1) is 95882.0
+The number of word-tokens in class politics (2) is 145276.0
+The number of word-tokens in class sport (3) is 130139.0
+The number of word-tokens in class tech (4) is 160688.0
+
+(h)
+The number of word-tokens in the entire corpus is 666831.0
+
+(i)
+The number and percentage of words with a frequency of zero in class business (0) is 18591 13%
+The number and percentage of words with a frequency of zero in class entertainment (1) is 19366 20%
+The number and percentage of words with a frequency of zero in class politics (2) is 19420 13%
+The number and percentage of words with a frequency of zero in class sport (3) is 20067 15%
+The number and percentage of words with a frequency of zero in class tech (4) is 18404 11%
+
+(j)
+The number and percentage of words with a frequency of one in the entire corpus is 20488 3%
+
+(k)
+The log-prob of the word 'coffee' in each class of the 5 classes is: [-10.06333828 -11.0453429  -11.37766114 -11.98017531 -10.76905851]
+The log-prob of the word 'pizza' in each class of the 5 classes is: [-12.00924843 -11.73849008 -12.07080832 -10.88156302 -12.15535287]
+
+************************
+
+(a)
+Multi-nomialNB smoothing value 0.0001
+
+(b)
+[[103   0   3   0   2]
+ [  0  74   0   0   2]
+ [  3   0  83   0   0]
+ [  1   0   0 102   0]
+ [  0   0   0   0  72]]
+
+(c)
+               precision    recall  f1-score   support
+
+     business       0.96      0.95      0.96       108
+entertainment       1.00      0.97      0.99        76
+     politics       0.97      0.97      0.97        86
+        sport       1.00      0.99      1.00       103
+         tech       0.95      1.00      0.97        72
+
+     accuracy                           0.98       445
+    macro avg       0.98      0.98      0.98       445
+ weighted avg       0.98      0.98      0.98       445
+
+
+(d)
+Accuracy score: 0.98
+Macro-average F1 score: 0.98
+Weighted-average F1 score: 0.98
+
+(e)
+business: 0.23
+entertainment: 0.17
+politics: 0.19
+sport: 0.23
+tech: 0.18
+
+(f)
+The size of the vocabulary is 29421
+
+(g)
+The number of word-tokens in class business (0) is 131259.0
+The number of word-tokens in class entertainment (1) is 99437.0
+The number of word-tokens in class politics (2) is 146728.0
+The number of word-tokens in class sport (3) is 128302.0
+The number of word-tokens in class tech (4) is 163588.0
+
+(h)
+The number of word-tokens in the entire corpus is 669314.0
+
+(i)
+The number and percentage of words with a frequency of zero in class business (0) is 18768 14%
+The number and percentage of words with a frequency of zero in class entertainment (1) is 18856 18%
+The number and percentage of words with a frequency of zero in class politics (2) is 19361 13%
+The number and percentage of words with a frequency of zero in class sport (3) is 19896 15%
+The number and percentage of words with a frequency of zero in class tech (4) is 18157 11%
+
+(j)
+The number and percentage of words with a frequency of one in the entire corpus is 20974 3%
+
+(k)
+The log-prob of the word 'coffee' in each class of the 5 classes is: [ -9.99317403 -11.50720915 -11.89625587 -20.97250544 -10.90647871]
+The log-prob of the word 'pizza' in each class of the 5 classes is: [-20.99529054 -20.71764952 -21.10669623 -11.76206507 -21.21546471]
+
+************************
+
+(a)
+Multi-nomialNB smoothing value 0.9
+
+(b)
+[[103   0   0   0   4]
+ [  0  68   0   0   2]
+ [  1   1  87   0   0]
+ [  0   0   1 103   0]
+ [  0   0   1   0  74]]
+
+(c)
+               precision    recall  f1-score   support
+
+     business       0.99      0.96      0.98       107
+entertainment       0.99      0.97      0.98        70
+     politics       0.98      0.98      0.98        89
+        sport       1.00      0.99      1.00       104
+         tech       0.93      0.99      0.95        75
+
+     accuracy                           0.98       445
+    macro avg       0.98      0.98      0.98       445
+ weighted avg       0.98      0.98      0.98       445
+
+
+(d)
+Accuracy score: 0.98
+Macro-average F1 score: 0.98
+Weighted-average F1 score: 0.98
+
+(e)
+business: 0.23
+entertainment: 0.17
+politics: 0.19
+sport: 0.23
+tech: 0.18
+
+(f)
+The size of the vocabulary is 29421
+
+(g)
+The number of word-tokens in class business (0) is 128122.0
+The number of word-tokens in class entertainment (1) is 102242.0
+The number of word-tokens in class politics (2) is 148764.0
+The number of word-tokens in class sport (3) is 132054.0
+The number of word-tokens in class tech (4) is 161962.0
+
+(h)
+The number of word-tokens in the entire corpus is 673144.0
+
+(i)
+The number and percentage of words with a frequency of zero in class business (0) is 18868 14%
+The number and percentage of words with a frequency of zero in class entertainment (1) is 18716 18%
+The number and percentage of words with a frequency of zero in class politics (2) is 19273 12%
+The number and percentage of words with a frequency of zero in class sport (3) is 19829 15%
+The number and percentage of words with a frequency of zero in class tech (4) is 18460 11%
+
+(j)
+The number and percentage of words with a frequency of one in the entire corpus is 20838 3%
+
+(k)
+The log-prob of the word 'coffee' in each class of the 5 classes is: [-10.01708082 -10.70069104 -11.4320744  -12.07907794 -10.78556316]
+The log-prob of the word 'pizza' in each class of the 5 classes is: [-12.05396275 -11.87076229 -12.17928881 -10.90900668 -12.25190022]
