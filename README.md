@@ -7,7 +7,7 @@ The focus of this mini-project lies more on the experimentations and analysis th
 1. Create a `python` virtual environment inside the `MP-01` folder <br>
 ```shell
 cd MP-01
-python3.9 -m venv myenv
+python3.9 -m venv myenv1
 ```
 2. Activate the environment <br>
 ```shell
