@@ -3,11 +3,11 @@ This mini-project experiments with different machine learning algorithms and dif
 The focus of this mini-project lies more on the experimentations and analysis than on the implementation.
 
 ## Installation
-*Assuming `python3.7` and `venv` pacakage are installed.* <br>
+*Assuming `python3.9` and `venv` pacakage are installed.* <br>
 1. Create a `python` virtual environment inside the `MP-01` folder <br>
 ```shell
 cd MP-01
-python3.7 -m venv myenv
+python3.9 -m venv myenv
 ```
 2. Activate the environment <br>
 ```shell
@@ -20,11 +20,18 @@ pip install matplotlib
 pip install -U scikit-learn
 pip install numpy
 ```
-4. Run script<br>
+4. Run scripts<br>
 ```shell
-python3 Task#.py
+# to run Task1
+python3 Task1.py
 ```
-*where Task# is Task1 or Task2*
+```shell
+# to run Task2
+python3 Task2.py
+```
+##### Notes: 
+1. `Task2.py` returns a warning message that can be ignored.
+2. `Task2.py` takes a little longer than `Task1.py` to run.
 ## Dependencies
 <b>Task1</b> requires the `BBC/` directory containing the BBC news article dataset.<br>
 <b>task2</b> requires the CSV file `drugs200.csv` containing the drugs dataset.
@@ -66,14 +73,16 @@ from sklearn.metrics import recall_score
 <b>Task</b> 1 outputs:
 1. `bbc-distribution.pdf`
 2. `bbc-performance.txt`
-3. `bbc-discussion.txt`<br>
 
 <b>Task 2</b> outputs:
 1. `drug-distribution.pdf`
 2. `drug-performance.txt`
-3. `drug-discussion.txt`
 
-## Presentation
+## Presentation and Discussion Files
 The following files are for Demo presentation purposes:
 1. `MP1-Presentation.ipynb`
-2. `MP1-Presentation.pdf`
+2. `MP1-Presentation.pdf`<br>
+
+The following are discussion text files:
+1. `bbc-discussion.txt`
+2. `drug-discussion.txt`
