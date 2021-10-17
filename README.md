@@ -1,5 +1,5 @@
 # MP-01
-This mini-project experiment with different machine learning algorithms and different data sets using python's scikit-learn Library.
+This mini-project experiments with different machine learning algorithms and different datasets using <i>python's scikit-learn Library</i>.
 The focus of this mini-project lies more on the experimentations and analysis than on the implementation.
 
 ## Installation
@@ -13,7 +13,7 @@ python3.7 -m venv myenv
 ```shell
 source myenv/bin/activate
 ```
-3. Install packages<br>
+3. Install any non-built-in modules or packages<br>
 ```shell
 pip install pandas
 pip install matplotlib
@@ -62,3 +62,18 @@ from sklearn.metrics import accuracy_score
 from sklearn.metrics import precision_score
 from sklearn.metrics import recall_score
 ```
+## Output
+<b>Task</b> 1 outputs:
+1. `bbc-distribution.pdf`
+2. `bbc-performance.txt`
+3. `bbc-discussion.txt`<br>
+
+<b>Task 2</b> outputs:
+1. `drug-distribution.pdf`
+2. `drug-performance.txt`
+3. `drug-discussion.txt`
+
+## Presentation
+The following files are for Demo presentation purposes:
+1. `MP1-Presentation.ipynb`
+2. `MP1-Presentation.pdf`
