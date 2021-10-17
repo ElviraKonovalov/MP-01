@@ -86,3 +86,6 @@ The following files are for Demo presentation purposes:
 The following are discussion text files:
 1. `bbc-discussion.txt`
 2. `drug-discussion.txt`
+## Author
+Alvira Konovalov 
+40074264
