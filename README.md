@@ -87,5 +87,5 @@ The following are discussion text files:
 1. `bbc-discussion.txt`
 2. `drug-discussion.txt`
 ## Author
-Alvira Konovalov 
+Alvira Konovalov<br>
 40074264
