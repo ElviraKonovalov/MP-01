@@ -28,8 +28,6 @@ plt.savefig("BBC-distribution.pdf")
 
 # Q3 - Load the corpus using load files, this assigns a class to each article
 files_info = sklearn.datasets.load_files(container_path='BBC/', encoding='latin1')
-# for i in range(len(files_info.data)):
-#     print("Text:",files_info.data[i],"\n-----Class number:",files_info.target[i])
 
 ''' 
 Q4 - Pre-process the dataset to have the features ready to be used by a multinomial Naive Bayes classifier.

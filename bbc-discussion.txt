@@ -1,11 +1,13 @@
 Q11.
 
+'''
 (a) What metric is best suited to this dataset/task and why?
-
+'''
 Accuracy is well suited for this task since we have a well-balanced dataset. All five classes (business, entertainment, politics, sport, and tech) have a similar amount of sample articles. It is easy to see in the BBC distribution (BBC-distribution), all classes have between 400-500 instances each. Also, it is appropriate to use the accuracy metric as all classes are equally important and equally represented in this case. We are not interested in one type of news category more than another.
 
+'''
 (b) Why the performance of steps (8-10) are the same or are different than those of step (7) above.
-
+'''
 The results in Q7 and Q8 are the same since at both times we used the default values. The default values in sklearn.naibe_bayes.MultinomialNB are alpha=1.0 (smoothing), fit-prior=True, and class_prior=None.
 
 However, in Q9 and Q10, we did change the smoothing values (alpha=0.0001 and alpha=0.9), so this time we do see slightly different performance results.
